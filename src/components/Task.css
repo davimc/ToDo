@@ -1,0 +1,49 @@
+.Task {
+    display: flex;
+    align-items: center;
+    flex-basis: 0;
+}
+
+.Task .Box {
+    margin: 8px 6px 0 -3px;
+    z-index: 1;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+}
+.Task .Box input { 
+    cursor: pointer;
+    margin-right: 0.8rem;
+    
+}
+.Task .Content {
+    height: auto;
+    display: block;
+}
+.Task .Content h4 {
+    display: flex;
+    margin:0;
+    padding: 0;
+}
+.Task .Content p {
+    margin-top:0;
+    margin-left: 0.4rem;
+    padding: 0;
+    margin: 0;
+    
+    color: #8a8484;
+
+}
+.Task .Date {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.Task .Date p {
+    position: relative;
+    
+}
